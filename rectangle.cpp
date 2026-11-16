@@ -1,17 +1,17 @@
 #include "rectangle.h"
-void Rectangle::setWidth(double newWidth)
+void Rectangle::setWidth(double newWidth) //asetetaan leveys
 {
-    width = newWidth;
+    width = newWidth;  //tallennetaan uusi leveys
 }
-void Rectangle::setHeight(double newHeight)
+void Rectangle::setHeight(double newHeight)  //asetetaan korkeus
 {
-    height = newHeight;
+    height = newHeight;  //tallennetaan uusi korkeus
 }
-double Rectangle::getArea() const
+double Rectangle::getArea() const  
 {
-    return width * height;
+    return width * height;  //lasketaan pinta-ala
 }
-double Rectangle::getCircum() const
+double Rectangle::getCircum() const 
 {
-    return 2 * (width + height);
+    return 2 * (width + height); //lasketaan ympärysmitta
 }

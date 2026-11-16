@@ -8,13 +8,13 @@ using namespace std;
 class Car
 {
 private:
-    string brand;
-    string model;
-    int yearModel;
+    string brand;   //asetetaan auton merkki
+    string model;   //asetetaan malli
+    int yearModel;  //asetetaan vuosimalli
 public:
-    void setBrand(string newBrand);
-    void setModel(string newModel);
-    void setYearModel(int newYear);
-    void printData();
+    void setBrand(string newBrand); //asetetaan auton merkki
+    void setModel(string newModel);  //asetetaan auton malli
+    void setYearModel(int newYear);   //asetetaan auton vuosimalli
+    void printData();  //tulostetaan
 };
 #endif

@@ -1,7 +1,7 @@
 #include "rectangle.h"
-void Rectangle::setWidth(double newWidth) //asetetaan suorakolmiolle leveys
+void Rectangle::setWidth(double newWidth) 
 {
-    width = newWidth;  //tallennetaan leveys muuttujaan 
+    width = newWidth; 
 }
 void Rectangle::setHeight(double newHeight)  
 {

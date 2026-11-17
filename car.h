@@ -12,9 +12,9 @@ private:
     string model;  
     int yearModel;  
 public:
-    void setBrand(string newBrand);  //asetetaan auton merkki
-    void setModel(string newModel);  //asetetaan auton malli
-    void setYearModel(int newYear);    //asetetaan auton vuosimalli
+    void setBrand(string newBrand);  
+    void setModel(string newModel);  
+    void setYearModel(int newYear); 
     void printData();  
 };
 #endif

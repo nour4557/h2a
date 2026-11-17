@@ -1,20 +1,20 @@
 #include "car.h"
 
-void Car::setBrand(string newBrand) // Asetetaan auton merkki
+void Car::setBrand(string newBrand) 
 {
     brand = newBrand;
 }
-void Car::setModel(string newModel) //// Asetetaan auton malli
+void Car::setModel(string newModel) 
 {
     model = newModel;
 }
-void Car::setYearModel(int newYear) //Asetetaan auton vuosimalli
+void Car::setYearModel(int newYear) 
 {
     yearModel = newYear;
 }
 void Car::printData()
 {
-    cout << "Brand: " << brand << endl;  //tulostetaan auton merkki
-    cout << "Model: " << model << endl;   //tulostetaan auton malli
-    cout << "Year: " << yearModel << endl;  // tulostetaan auton vuosimalli
+    cout << "Brand: " << brand << endl;  
+    cout << "Model: " << model << endl;   
+    cout << "Year: " << yearModel << endl;  
 }

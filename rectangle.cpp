@@ -1,9 +1,9 @@
 #include "rectangle.h"
-void Rectangle::setWidth(double newWidth) 
+void Rectangle::setWidth(double newWidth) //asetetaan suorakolmiolle leveys
 {
-    width = newWidth;  
+    width = newWidth;  //tallennetaan leveys muuttujaan 
 }
-void Rectangle::setHeight(double newHeight) 
+void Rectangle::setHeight(double newHeight)  
 {
     height = newHeight;  
 }
